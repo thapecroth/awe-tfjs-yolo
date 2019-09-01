@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tfjs-yolo demo</title>
+  </head>
+
+  <body>
+    <div class="description">
+      <h2>Recreated by Varich Boonsanong</h2>
+      <h3>contact: thapecroth@gmail.com</h3>
+    </div>
+
+    <div class="container">
+      <div class="button-group">
+        <button id="v3">YOLOv3 (236MB)</button>
+        <button id="v1tiny">Tiny YOLOv1 (60MB)</button>
+        <button id="v2tiny">Tiny YOLOv2 (43MB)</button>
+        <button id="v3tiny">Tiny YOLOv3 (34MB)</button>
+      </div>
+    </div>
+    <div class="source">
+      <button id="iswebcam">using webcame ?</button>
+    </div>
+    <div class="container">
+      <div id="webcam-wrapper">
+        <div id="loader"></div>
+        <div id="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+        <div id="rects"></div>
+        <video autoplay playsinline muted id="webcam"></video>
+      </div>
+    </div>
+    <div class="container">
+      <input type="file" id="inp" />
+    </div>
+    <div class="container">
+      <canvas id="canvas" width="300"></canvas>
+    </div>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+  </body>
+</html>
