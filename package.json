@@ -25,5 +25,14 @@
   },
   "dependencies": {
     "tfjs-yolo": "^0.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thapecroth/awe-tfjs-yolo.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/thapecroth/awe-tfjs-yolo/issues"
+  },
+  "homepage": "https://github.com/thapecroth/awe-tfjs-yolo#readme"
 }
